@@ -14,13 +14,18 @@ li{
 	color: orange;
 }
 
+div{
+	color:orange;
+}
+
 p {
-    /*display: none;*/
+    display: none;
 	padding-left:15%;
 	padding-right: 65%;
 	padding-top: 22%;
 	font-family: sans-serif;
 	font-size: 16;
+	color: white;
     background-color: orange;
     padding: 20px;
 }
