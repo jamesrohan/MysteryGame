@@ -1,0 +1,10 @@
+body{
+	margin-left: 50px;
+	margin-right: 50px;
+	/*background-image: url("SW5.jpg");*/
+	/*background-image: url("SW2.jpg");*/
+	/*background-size: 1280pt 800pt;*/
+	background-size: cover;
+    background-repeat: no-repeat;
+	font-family: sans-serif;
+}
