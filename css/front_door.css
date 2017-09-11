@@ -1,0 +1,62 @@
+body{
+	background-image: url("../img/cabinfront.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+	clear: both;	
+}
+
+
+#nav {
+	max-height: 75px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.column{
+	text-align:right;
+	width: 50%;	
+	float: left;
+	height: 50px;
+}
+
+.container{
+	position: relative;
+	height: 630pt;
+	width: 100%;
+	
+}
+
+.nav_arrows:after{
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.nav_img {
+	max-height: 50px;
+	max-width: 50px;
+}
+
+#up_arrow{
+	transform: rotate(180deg);
+}
+
+#right_arrow{
+	transform: rotate(270deg);
+}
+
+.nav_arrows a:link{
+}
+
+.nav_arrows a:hover{
+	border: purple dashed;
+	padding-top: 30pt;
+}
+
