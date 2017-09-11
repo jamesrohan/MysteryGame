@@ -30,11 +30,9 @@ body{
 	width: 200pt;
 	margin: auto;
 	margin-top: 200pt;
-	opacity: 0.5;
 }
 
 .container{
-	border: 5px red solid;
 	width: 100%;
 	height: 630pt;
 }
