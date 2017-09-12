@@ -1,36 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
 	background-image: url("../img/cabinfront.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	max-height: 100%;
-	max-width: 100%;
-	height: auto;
-	width: auto;
-	overflow: hidden;
-	clear: both;	
+	max-height: 100vh;
+	max-width: 100vw;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
 }
 
 
 #nav {
 	max-height: 75px;
-	width: 100%;
+	width: 100vw;
 	position: absolute;
 	bottom: 0;
 }
 
 .column{
 	text-align:right;
-	width: 50%;	
+	width: 50vw;	
 	float: left;
 	height: 50px;
 }
 
 .container{
 	position: relative;
-	height: 630pt;
-	width: 100%;
-	
+	height: 99vh;
+	width: 90vw;	
+	clear: both;
 }
 
 .nav_arrows:after{
@@ -58,5 +61,26 @@ body{
 .nav_arrows a:hover{
 	border: purple dashed;
 	padding-top: 30pt;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
