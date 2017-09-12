@@ -1,5 +1,5 @@
 body{
-	background-image: url("../img/cabin.jpg");
+	background-image: url("../img/shed.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body{
 
 .container{
 	position: relative;
-	height: 630pt;
+	height: 93vh;
 	width: 100%;
 	
 }
