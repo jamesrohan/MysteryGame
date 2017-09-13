@@ -27,7 +27,7 @@ body{
 	color: blue;
 	margin-top: 100pt;
 	background-color: grey;
-	width: 200pt;
+	width: 150pt;
 	margin: auto;
 	margin-top: 200pt;
 }
@@ -36,5 +36,38 @@ body{
 	width: 100%;
 	height: 630pt;
 }
+
+.how_to{
+	color: red;
+	background-color: black;	
+	text-align: center;
+	margin-top: 100pt;
+	width: 400pt;
+	margin: auto;
+	margin-top: 300;
+	font-size: 24pt;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 
 
