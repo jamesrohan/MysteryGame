@@ -34,9 +34,13 @@ img{
 }
 
 /*Remove when not needed*/
-a{
+.hide{
 	color: orange;
 	display:none;
+}
+
+a img{
+	
 }
 
 a:hover{
