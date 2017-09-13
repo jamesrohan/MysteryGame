@@ -58,7 +58,7 @@ body{
 }
 
 #right_arrow{
-	transform: rotate(180deg);
+	transform: rotate(270deg);
 	animation: beat linear 7s infinite;
 }
 
