@@ -11,3 +11,65 @@ body{
 }
 
 
+
+
+
+
+img{
+	position: fixed;
+	max-width:40px; 
+	color:red; 
+	top:15%; 
+	left:65%;
+	/*display: none;*/
+
+	color: red;
+	animation: beat linear 7s infinite; 	
+}
+
+
+
+.pulse{
+	animation: beat linear 1s infinite; 
+}
+
+
+@keyframes beat{
+	0% {opacity: 1;}
+	
+	50% {opacity: .1;}
+	
+	100% {opacity: 1;}
+}
+
+
+
+
+
+/** TOP NAV **/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+>>>>>>> origin/master
+}
+
+
+
+
+
