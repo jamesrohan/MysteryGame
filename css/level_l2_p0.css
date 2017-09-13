@@ -54,10 +54,12 @@ body{
 
 #left_arrow{
 	transform: rotate(90deg);
+	animation: beat linear 7s infinite;
 }
 
 #right_arrow{
-	transform: rotate(270deg);
+	transform: rotate(180deg);
+	animation: beat linear 7s infinite;
 }
 
 .nav_arrows a:link{
@@ -87,5 +89,15 @@ body{
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.pulse{
+	animation: beat linear 1s infinite; 
+}
+
+@keyframes beat{
+	0% {opacity: 1;}
+	50% {opacity: .1;}
+	100% {opacity: 1;}
 }
 
