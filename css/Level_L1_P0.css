@@ -34,12 +34,23 @@ img{
 }
 
 /*Remove when not needed*/
-a{
+.hide{
 	color: orange;
 	display:none;
 }
 
+a img{
+	
+}
+
 a:hover{
+	display: block;
+}
+
+
+
+div p a{
+	color: blue;
 	display: block;
 }
 
@@ -65,10 +76,11 @@ div:hover p {
     display: block;
 }
 
-<<<<<<< HEAD
+
 div:hover p {
     display: block;
-=======
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
