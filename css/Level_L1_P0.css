@@ -43,6 +43,13 @@ a:hover{
 	display: block;
 }
 
+
+
+div p a{
+	color: blue;
+	display: block;
+}
+
 /*img:hover {
 	display: block;
 	color:orange;
@@ -65,10 +72,11 @@ div:hover p {
     display: block;
 }
 
-<<<<<<< HEAD
+
 div:hover p {
     display: block;
-=======
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
