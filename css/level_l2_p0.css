@@ -104,3 +104,59 @@ body{
 	100% {opacity: 1;}
 }
 
+
+
+/* Rotating Image */
+img.hint {
+	position: fixed;
+	max-width:40px; 
+	color:red; 
+	top:15%; 
+	left:65%;
+	/*display: none;*/
+
+	color: red;
+	animation: rotate ease 7s infinite;
+	
+}
+
+
+@keyframes rotate{
+	0% {-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+		opacity: 1;}
+	
+	50% {-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+		transform: rotate(360deg);
+		opacity: 0.1;}
+	
+	100% {-ms-transform: rotate(0deg); /* IE 9 */
+			-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+			transform: rotate(0deg);
+			opacity: 1;}
+}
+
+
+
+/* Hidden Paragraph*/
+
+p {
+    display: none;
+	padding-left:15%;
+	padding-right: 65%;
+	padding-top: 22%;
+	width: 25%;
+	font-family: sans-serif;
+	font-size: 16;
+	color: white;
+    background-color: orange;
+    padding: 20px;
+}
+
+div:hover p {
+    display: block;
+}
+
+
