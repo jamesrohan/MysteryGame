@@ -1,8 +1,8 @@
 body{
-	background-image: url("../img/snow_path.jpg");
+	background-image: url("../img/outside.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 	max-height: 100%;
 	max-width: 100%;
 	height: auto;
@@ -33,9 +33,7 @@ body{
 	text-align: center;
 }
 
-#r_arrow{
-	text-align:right;
-}
+
 
 .container{
 	position: relative;
@@ -64,10 +62,6 @@ body{
 	animation: beat linear 7s infinite;
 }	
 
-#right_arrow{
-	transform: rotate(270deg);
-	animation: beat linear 7s infinite;
-}
 
 .nav_arrows a:link{
 }

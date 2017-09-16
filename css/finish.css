@@ -1,8 +1,8 @@
 body{
-	background-image: url("../img/snow_path.jpg");
+	background-image: url("../img/finish.jpg");
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 	max-height: 100%;
 	max-width: 100%;
 	height: auto;
@@ -10,7 +10,6 @@ body{
 	overflow: hidden;
 	clear: both;	
 }
-
 
 #nav {
 	max-height: 75px;
@@ -21,16 +20,8 @@ body{
 
 .column{
 	width: 33%;	
-	float: left;
+	float: right;
 	height: 50px;
-}
-
-#l_arrow{
-	text-align: left;
-}
-
-#u_arrow{
-	text-align: center;
 }
 
 #r_arrow{
@@ -53,16 +44,6 @@ body{
 	max-height: 50px;
 	max-width: 50px;
 }
-
-#left_arrow{
-	transform: rotate(90deg);
-	animation: beat linear 7s infinite;
-}
-
-#up_arrow{
-	transform: rotate(180deg);
-	animation: beat linear 7s infinite;
-}	
 
 #right_arrow{
 	transform: rotate(270deg);
@@ -96,10 +77,6 @@ body{
 .topnav a:hover {
     background-color: #ddd;
     color: black;
-}
-
-.pulse{
-	animation: beat linear 1s infinite; 
 }
 
 @keyframes beat{
