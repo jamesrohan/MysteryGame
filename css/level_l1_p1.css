@@ -33,7 +33,6 @@ body{
 	text-align:right;
 }
 
-
 .container{
 	position: relative;
 	height: 93vh;
@@ -88,3 +87,33 @@ body{
     color: black;
 }
 
+#desc{
+	color: white;
+	width: 25vw;
+	opacity: .5;
+}
+.clues{
+	width: 25vw;
+	position: absolute;
+	top: 85%;
+	left: 45%;
+}
+
+.hint{
+	width: 30px;
+	height: 30px;
+	opacity: .1;
+}
+	
+#cl_1 {
+	color: white;
+	background-color: red;
+}
+
+.clues p{
+	display: none;
+}
+
+.clues:hover p{
+	display: block;
+}
