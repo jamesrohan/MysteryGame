@@ -48,6 +48,12 @@ body{
 	font-size: 24pt;
 }
 
+.inner{
+	float: left;
+	margin-left: 10%;
+	height: 95vh;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
