@@ -57,10 +57,6 @@ body{
 #right_arrow{
 	transform: rotate(270deg);
 }
-
-.nav_arrows a:link{
-}
-
 .nav_arrows a:hover{
 	border: purple dashed;
 	padding-top: 30pt;
@@ -102,12 +98,12 @@ body{
 .hint{
 	width: 30px;
 	height: 30px;
-	opacity: .1;
+	opacity: .2;
 }
 	
 #cl_1 {
 	color: white;
-	background-color: red;
+	opacity: .6;
 }
 
 .clues p{
@@ -116,4 +112,26 @@ body{
 
 .clues:hover p{
 	display: block;
+}
+
+img.hint{
+	animation: rotate ease 7s infinite;
+	position: fixed;
+}
+
+@keyframes rotate{
+	0% {-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+		opacity: .1;}
+	
+	50% {-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+		transform: rotate(360deg);
+		opacity: .2;}
+	
+	100% {-ms-transform: rotate(0deg); /* IE 9 */
+			-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+			transform: rotate(0deg);
+			opacity: .1;}
 }
