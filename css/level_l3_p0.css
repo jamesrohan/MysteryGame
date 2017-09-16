@@ -101,3 +101,71 @@ body{
 	100% {opacity: 1;}
 }
 
+#desc{
+	color: white;
+	width: 25vw;
+	opacity: .5;
+}
+
+#clue1{
+	width: 25vw;
+	position: absolute;
+	top: 48%;
+	left: 40%;
+}
+
+#clue2{
+	width: 25vw;
+	position: absolute;
+	top: 78%;
+    right: 0%;
+}
+
+#cl_1 {
+	color: white;
+	/*background-color: red;*/
+	opacity: .7;
+}
+
+#cl_2 {
+	color: white;
+	/*background-color: red;*/
+	opacity: .5;
+}
+
+.hint{
+	width: 25px;
+	height: 25px;
+	opacity: .2;
+}
+
+img.hint{
+	animation: rotate ease 7s infinite;
+	position: fixed;
+}
+
+.clues p{
+	display: none;
+}
+
+.clues:hover p{
+	display: block;
+}
+
+@keyframes rotate{
+	0% {-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+		transform: rotate(0deg);
+		opacity: .09;}
+	
+	50% {-ms-transform: rotate(360deg); /* IE 9 */
+		-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+		transform: rotate(360deg);
+		opacity: .2;}
+	
+	100% {-ms-transform: rotate(0deg); /* IE 9 */
+			-webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+			transform: rotate(0deg);
+			opacity: .09;}
+}
+
