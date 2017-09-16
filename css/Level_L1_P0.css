@@ -12,22 +12,19 @@ img{
 	color:red; 
 	top:15%; 
 	left:65%;
-	/*display: none;*/
-
 	color: red;
 	animation: beat linear 7s infinite; 	
-}
-
-
-
-.pulse{
-	animation: beat linear 1s infinite; 
 }
 
 @keyframes beat{
 	0% {opacity: 1;}
 	50% {opacity: .1;}
 	100% {opacity: 1;}
+}
+
+
+.pulse{
+	animation: beat linear 1s infinite; 
 }
 
 /*Remove when not needed*/
