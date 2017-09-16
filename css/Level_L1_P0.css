@@ -16,6 +16,11 @@ img{
 	animation: beat linear 7s infinite; 	
 }
 
+
+
+
+
+
 @keyframes beat{
 	0% {opacity: 1;}
 	50% {opacity: .1;}
