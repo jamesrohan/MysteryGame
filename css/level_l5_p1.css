@@ -38,9 +38,9 @@ body{
     color: black;
 }
 
-@keyframes beat{
-	0% {opacity: 1;}
-	50% {opacity: .1;}
-	100% {opacity: 1;}
+#g_o_img{
+	width: 30vw;
+	height: 30vh;
+	opacity: .3;
+	margin-left: 33%;
 }
-
