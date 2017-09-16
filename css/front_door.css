@@ -13,9 +13,7 @@ body{
 	width: 100vw;
 	margin: 0;
 	animation: torch linear 7s;
-	
 }
-
 
 @keyframes torch{
 	0% {opacity: 0;}
@@ -28,8 +26,6 @@ body{
 .pulse{
 	animation: beat linear 1s infinite; 
 }
-
-
 
 #nav {
 	max-height: 75px;
@@ -107,17 +103,3 @@ body{
 	width: 25vw;
 	opacity: .5;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
